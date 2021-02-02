@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #1d2d50;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #f8bd7f;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ed6663;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.app-link {
+  display: block;
+  margin-bottom: 4%;
+  font-size: 3rem;
+  padding: 3%;
+  text-decoration: none;
+  color: #f8bd7f;
+  font-family: "VT323", monospace;
+}
+.app-link:hover {
+  color: #dfc3a6;
+  border: 2px gold solid;
+}
+footer {
+  font-family: "VT323", monospace;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-weight: 100;
+}
