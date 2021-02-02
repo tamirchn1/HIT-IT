@@ -15,37 +15,6 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
-  background-image: url(images/crash.png);
-}
-
-.a {
-  background-image: url(images/kick.png);
-}
-
-.s {
-  background-image: url(images/snare.png);
-}
-
-.d {
-  background-image: url(images/tom1.png);
-}
-.f {
-  background-image: url(images/tom2.png);
-}
-
-.g {
-  background-image: url(images/tom3.png);
-}
-
-.h {
-  background-image: url(images/tom4.png);
-}
-
-.set {
-  margin: 10% auto;
-}
-
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -60,23 +29,19 @@ footer {
   color: red;
 }
 
-.drum {
-  outline: none;
-  border: 10px solid #404b69;
-  font-size: 5rem;
+.app-link {
+  display: block;
+  margin-bottom: 7%;
+  font-size: 4rem;
+  padding: 4%;
+  text-decoration: none;
+  color: #f8bd7f;
   font-family: "VT323", monospace;
-  font-weight: 400;
-  color: gold;
-  text-shadow: 3px 0 silver;
-  border-radius: 20%;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: rgb(212, 193, 236);
 }
-
+.app-link:hover {
+  color: #dfc3a6;
+  border: 2px gold solid;
+}
 footer {
   font-family: "VT323", monospace;
   letter-spacing: 3px;
