@@ -1,0 +1,198 @@
+body {
+  background-color: #00587a;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #f8bd7f;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ed6663;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+  top: 208px;
+}
+
+.circleBase {
+  background: #e7dec8;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 180px;
+  left: 8%;
+  z-index: -1;
+}
+.circleBaseShadow {
+  background: #ac4b1c;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 180px;
+  left: 8.5%;
+  z-index: -2;
+}
+
+.str {
+  margin-top: 50px;
+  background-color: #ac4b1c;
+  outline: none;
+  border: 10px solid #404b69;
+  color: #f8bd7f;
+  width: auto;
+  height: 9px;
+  margin: 10px;
+  text-align: right;
+  font-family: "Arvo", cursive;
+}
+
+.str:hover {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.nut {
+  height: 260px;
+  width: 20px;
+  position: absolute;
+  z-index: -1;
+  background-color: #e7dec8;
+  top: 200px;
+  right: 45px;
+}
+
+.fret {
+  height: 220px;
+  position: absolute;
+  z-index: -1;
+  background-color: #e7dec8;
+  top: 220px;
+  right: 120px;
+  float: left;
+  width: 3px;
+  border-right: 2px solid #686868;
+}
+
+.fret:nth-child(1) {
+  margin-right: 3% !important;
+}
+
+.fret:nth-child(2) {
+  margin-right: 8% !important;
+}
+
+.fret:nth-child(3) {
+  margin-right: 13% !important;
+}
+
+.fret:nth-child(4) {
+  margin-right: 18% !important;
+}
+
+.fret:nth-child(5) {
+  margin-right: 23% !important;
+}
+
+.fret:nth-child(6) {
+  margin-right: 28% !important;
+}
+
+.fret:nth-child(7) {
+  margin-right: 33% !important;
+}
+
+.fret:nth-child(8) {
+  margin-right: 38% !important;
+}
+
+.fret:nth-child(9) {
+  margin-right: 43% !important;
+}
+
+.fret:nth-child(10) {
+  margin-right: 48% !important;
+}
+
+.fret:nth-child(11) {
+  margin-right: 53% !important;
+}
+
+.fret:nth-child(12) {
+  margin-right: 58% !important;
+}
+
+.fret:nth-child(13) {
+  margin-right: 63% !important;
+}
+
+.myguitar {
+  color: #f8bd7f;
+  font-family: "Arvo", cursive;
+}
+
+.notes {
+  line-height: 2.5rem;
+  font-family: "Arvo", cursive;
+  color: #f8bd7f;
+  height: 260px;
+  width: 20px;
+  top: 210px;
+  right: 45px;
+  position: absolute;
+}
+
+#modes {
+  width: 200px;
+  border: 2px solid #f8bd7f;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 2em;
+}
+
+.choose-guitar {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f8bd7f;
+  color: #00587a;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 35px;
+  color: azure;
+  font-weight: bold;
+}
+
+input {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.app-link {
+  display: block;
+  margin-bottom: 7%;
+  font-size: 4rem;
+  padding: 4%;
+  text-decoration: none;
+  color: #f8bd7f;
+  font-family: "VT323", monospace;
+}
+.app-link:hover {
+  color: #dfc3a6;
+  border: 2px gold solid;
+}

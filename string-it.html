@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XQW64RL7DE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XQW64RL7DE");
+    </script>
+    <meta charset="utf-8" />
+
+    <meta
+      name="description"
+      content="Virtual instrument Guitar - 'String It' for music producing everywhere, record and mix from your smartphone or laptop"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>String it</title>
+  </head>
+
+  <body>
+    <h1>String 🎸 It</h1>
+
+    <div class="circleBase"></div>
+    <div class="circleBaseShadow"></div>
+    <div class="nut"></div>
+
+    <div class="strings">
+      <div class="str eel" id="el"></div>
+      <div class="str ea" id="a"></div>
+      <div class="str ed" id="d"></div>
+      <div class="str eg" id="g"></div>
+      <div class="str eb" id="b"></div>
+      <div class="str eeh" id="eh"></div>
+    </div>
+    <div class="frets">
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+      <div class="fret"></div>
+    </div>
+
+    <div class="notes">
+      <strong>E<br />A<br />D<br />G<br />B<br />E</strong>
+    </div>
+
+    <p class="choose-guitar">CHOOSE GUITAR</p>
+
+    <!-- ? TRIAL -->
+
+    <select name="modes" id="modes">
+      <option selected value="classic">Classic</option>
+      <option value="electric">Electric</option>
+      <option value="chorus">Chorus</option>
+    </select>
+
+    <footer>
+      <em><strong>STRING YOURSELF</strong></em> <br />
+      <a class="app-link" href="index.html" id="title">POCKET 🎛️ PRODUCER</a>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
