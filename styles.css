@@ -83,3 +83,17 @@ footer {
   font-size: 2rem;
   font-weight: 100;
 }
+
+.app-link {
+  display: block;
+  margin-bottom: 7%;
+  font-size: 4rem;
+  padding: 4%;
+  text-decoration: none;
+  color: #f8bd7f;
+  font-family: "VT323", monospace;
+}
+.app-link:hover {
+  color: #dfc3a6;
+  border: 2px gold solid;
+}
