@@ -11,9 +11,10 @@ h1 {
 }
 
 footer {
+  margin-top: 2%;
   color: #dbedf3;
-  font-family: sans-serif;
-  top: 208px;
+  font-family: VT323;
+  font-size: 3rem;
 }
 
 .circleBase {
@@ -184,15 +185,19 @@ input {
 }
 
 .app-link {
-  display: block;
   margin-bottom: 7%;
-  font-size: 4rem;
-  padding: 4%;
+  font-size: 3rem;
+  margin: 4%;
+  padding: 1%;
   text-decoration: none;
   color: #f8bd7f;
   font-family: "VT323", monospace;
 }
 .app-link:hover {
   color: #dfc3a6;
-  border: 2px gold solid;
+  border: 3px gold dotted;
+}
+
+.set-string-it {
+  margin-top: 2%;
 }

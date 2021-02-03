@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: #1d2d50;
 }
+
 h1 {
   font-size: 5rem;
   color: #f8bd7f;
@@ -11,7 +12,8 @@ h1 {
 }
 
 .set {
-  margin: 10% auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .drum {
@@ -21,18 +23,20 @@ h1 {
 }
 
 .app-link {
-  font-size: 2rem;
-  padding: 2%;
+  display: block;
+  font-size: 3rem;
+  padding: 3% 3%;
   text-decoration: none;
   color: #f8bd7f;
   font-family: "VT323", monospace;
 }
 .app-link:hover {
   color: #dfc3a6;
-  border: 2px gold solid;
+  border: 3px gold dotted;
 }
 
 footer {
+  margin-top: 2%;
   color: #dbedf3;
   font-family: VT323;
   font-size: 3rem;
@@ -66,8 +70,15 @@ footer {
   background-image: url("images/kick.png");
 }
 
-.set {
-  margin: 10% auto;
+.set-index {
+  margin: 5% auto;
+}
+.set-hit-it {
+  margin: 1% auto;
+}
+.set-string-it {
+  font-size: 0.5rem;
+  font-family: ;
 }
 
 .pressed {
